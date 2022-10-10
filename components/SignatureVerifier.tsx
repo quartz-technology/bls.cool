@@ -12,6 +12,28 @@ export default function SignatureVerifier() {
     const [message, setMessage] = React.useState<string>("");
     const [signature, setSignature] = React.useState<string>("");
     const [pubKey, setPubKey] = React.useState<string>("");
+    const [enabled, setEnabled] = React.useState<boolean>(false);
+
+    React.useEffect(() => {
+        const regexSignature = /^[a-fA-F0-9]{192}$/g
+        const regexPublicKey = /^[a-fA-F0-9]{96}$/g
+
+        if (signature.match(regexSignature) && pubKey.match(regexPublicKey)) {
+            if (message.length % 2 == 0 && message.length != 0) {
+                for (const c of message) {
+                    if (!isHexadecimal(c)) {
+                        setEnabled(false);
+                        return;
+                    }
+                }
+                setEnabled(true);
+            } else {
+                setEnabled(false);
+            }
+        } else {
+            setEnabled(false);
+        }
+    }, [signature, message, pubKey]);
 
     return (
         <View>
@@ -50,7 +72,7 @@ export default function SignatureVerifier() {
                     }} />
                 </VStack>
             </VStack>
-                <Button isDisabled={!(isHexadecimal(signature) && isHexadecimal(message) && message.length % 2 == 0 && isHexadecimal(pubKey))} onPress={async () => {
+                <Button isDisabled={!(enabled)} onPress={async () => {
                     const isVerified = (await bls.verify(signature, message, pubKey));
                     let status: "error" | "success" = "error";
                     let title = "failed"
