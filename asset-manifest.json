@@ -1,22 +1,22 @@
 {
   "files": {
-    "app.js": "/GeekyAnts/nativebase-templates/static/js/app.85e76c43.chunk.js",
-    "app.js.map": "/GeekyAnts/nativebase-templates/static/js/app.85e76c43.chunk.js.map",
+    "app.js": "/GeekyAnts/nativebase-templates/static/js/app.3fdaf563.chunk.js",
+    "app.js.map": "/GeekyAnts/nativebase-templates/static/js/app.3fdaf563.chunk.js.map",
     "runtime~app.js": "/GeekyAnts/nativebase-templates/static/js/runtime~app.3dc534b2.js",
     "runtime~app.js.map": "/GeekyAnts/nativebase-templates/static/js/runtime~app.3dc534b2.js.map",
-    "static/js/2.59e774e9.chunk.js": "/GeekyAnts/nativebase-templates/static/js/2.59e774e9.chunk.js",
-    "static/js/2.59e774e9.chunk.js.map": "/GeekyAnts/nativebase-templates/static/js/2.59e774e9.chunk.js.map",
+    "static/js/2.1e98096d.chunk.js": "/GeekyAnts/nativebase-templates/static/js/2.1e98096d.chunk.js",
+    "static/js/2.1e98096d.chunk.js.map": "/GeekyAnts/nativebase-templates/static/js/2.1e98096d.chunk.js.map",
     "favicon-16.png": "/GeekyAnts/nativebase-templates/favicon-16.png",
     "favicon-32.png": "/GeekyAnts/nativebase-templates/favicon-32.png",
     "favicon.ico": "/GeekyAnts/nativebase-templates/favicon.ico",
     "index.html": "/GeekyAnts/nativebase-templates/index.html",
     "manifest.json": "/GeekyAnts/nativebase-templates/manifest.json",
     "serve.json": "/GeekyAnts/nativebase-templates/serve.json",
-    "static/js/2.59e774e9.chunk.js.LICENSE.txt": "/GeekyAnts/nativebase-templates/static/js/2.59e774e9.chunk.js.LICENSE.txt"
+    "static/js/2.1e98096d.chunk.js.LICENSE.txt": "/GeekyAnts/nativebase-templates/static/js/2.1e98096d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime~app.3dc534b2.js",
-    "static/js/2.59e774e9.chunk.js",
-    "static/js/app.85e76c43.chunk.js"
+    "static/js/2.1e98096d.chunk.js",
+    "static/js/app.3fdaf563.chunk.js"
   ]
 }
