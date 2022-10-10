@@ -15,7 +15,9 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "deploy": "gh-pages -d web-build",
+    "predeploy": "expo build:web"
   },
   "dependencies": {
     "@noble/bls12-381": "^1.4.0",
@@ -34,6 +36,7 @@
     "@babel/core": "^7.12.9",
     "@types/react": "~17.0.21",
     "@types/react-native": "~0.64.12",
+    "gh-pages": "^4.0.0",
     "typescript": "~4.3.5"
   },
   "bugs": {
