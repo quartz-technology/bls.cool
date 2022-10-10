@@ -1,22 +1,22 @@
 {
   "files": {
-    "app.js": "/bls.cool/static/js/app.3fdaf563.chunk.js",
-    "app.js.map": "/bls.cool/static/js/app.3fdaf563.chunk.js.map",
+    "app.js": "/bls.cool/static/js/app.34acd458.chunk.js",
+    "app.js.map": "/bls.cool/static/js/app.34acd458.chunk.js.map",
     "runtime~app.js": "/bls.cool/static/js/runtime~app.2f18735e.js",
     "runtime~app.js.map": "/bls.cool/static/js/runtime~app.2f18735e.js.map",
-    "static/js/2.1e98096d.chunk.js": "/bls.cool/static/js/2.1e98096d.chunk.js",
-    "static/js/2.1e98096d.chunk.js.map": "/bls.cool/static/js/2.1e98096d.chunk.js.map",
+    "static/js/2.89cc5b8b.chunk.js": "/bls.cool/static/js/2.89cc5b8b.chunk.js",
+    "static/js/2.89cc5b8b.chunk.js.map": "/bls.cool/static/js/2.89cc5b8b.chunk.js.map",
     "favicon-16.png": "/bls.cool/favicon-16.png",
     "favicon-32.png": "/bls.cool/favicon-32.png",
     "favicon.ico": "/bls.cool/favicon.ico",
     "index.html": "/bls.cool/index.html",
     "manifest.json": "/bls.cool/manifest.json",
     "serve.json": "/bls.cool/serve.json",
-    "static/js/2.1e98096d.chunk.js.LICENSE.txt": "/bls.cool/static/js/2.1e98096d.chunk.js.LICENSE.txt"
+    "static/js/2.89cc5b8b.chunk.js.LICENSE.txt": "/bls.cool/static/js/2.89cc5b8b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime~app.2f18735e.js",
-    "static/js/2.1e98096d.chunk.js",
-    "static/js/app.3fdaf563.chunk.js"
+    "static/js/2.89cc5b8b.chunk.js",
+    "static/js/app.34acd458.chunk.js"
   ]
 }
