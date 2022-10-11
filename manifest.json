@@ -2,8 +2,8 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "lang": "en",
-  "name": "bls-me",
-  "short_name": "bls-me",
+  "name": "bls-cool",
+  "short_name": "bls-cool",
   "start_url": "/?utm_source=web_app_manifest",
   "orientation": "portrait",
   "icons": [
