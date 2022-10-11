@@ -1,5 +1,5 @@
 {
-  "name": "bls-me",
+  "name": "bls-cool",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "keywords": [
@@ -42,7 +42,7 @@
   "bugs": {
     "url": "https://github.com/GeekyAnts/nativebase-templates/issues"
   },
-  "homepage": "https://quartz-technology.github.io/bls.cool/",
+  "homepage": "https://bls.cool",
   "author": "Aditya Jamuar",
   "private": true
 }
